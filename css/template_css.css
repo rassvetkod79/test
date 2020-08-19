@@ -1,0 +1,367 @@
+/** 
+* A Mambo 4.5.3 xhtml compatible template 
+* @version 1.0 
+* @package NVU Template Addon 
+* @copyright (C) 2005 by Open4G Mambo Template Developer Extension for NVU - All rights reserved! 
+* @license http://www.open4g.com/ GPL/GNU License 
+**/ 
+ 
+body { 
+ margin : 2px; 
+ padding : 2px; 
+ background : #FFFFFF; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", "Verdana", "sans-serif"; 
+ font-size : 12px; 
+ color : #000; 
+} 
+ 
+td, tr, p, div { 
+font-family :"Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", "Verdana", "sans-serif"; 
+ color : #000; 
+ font-size : 12px; 
+} 
+ 
+hr { 
+ color : #E0E0E0; 
+ height : 1px; 
+ width : 100%; 
+} 
+ 
+ 
+table.moduletable { 
+ width : 100%; 
+ table-layout : auto; 
+ margin : 0px 4px 15px 4px; 
+} 
+table.moduletable th { 
+ padding : 3px 0px; 
+ font-size : 14px; 
+ font-weight : bold; 
+ text-align : left; 
+ letter-spacing : 1px; 
+ color : #003366; 
+} 
+table.moduletable td { 
+ padding : 0px; 
+} 
+ 
+ul 
+{ 
+margin-top: 7px; 
+padding: 0; 
+list-style: none; 
+} 
+ 
+ 
+li 
+{ 
+line-height: 15px; 
+padding-left: 15px; 
+padding-top: 0px; 
+background-image: url(../images/arrow.png) ; 
+background-repeat: no-repeat; 
+background-position: 0px 3px; 
+} 
+ 
+.button { 
+ background-color : #003366; 
+ color : white; 
+ margin : 5px; 
+} 
+ 
+.inputbox { 
+ border : 1px solid #B8D1E8; 
+ background : #FFFFFF; 
+ color : #003366; 
+ margin : 5px; 
+} 
+ 
+.sectiontableheader { 
+ font-size : 11px; 
+ font-weight : bold; 
+ text-align : center; 
+ color : #FFFFFF; 
+ background : #003366; 
+ vertical-align : middle; 
+ height : 20px; 
+ border-right : 1px solid #fff; 
+ padding : 0px 10px; 
+} 
+ 
+.sectiontableentry1 { 
+ background : #F9F9F9; 
+ padding : 3px 5px; 
+} 
+ 
+.sectiontableentry2 { 
+ background : #F0F0F0; 
+ padding : 3px 5px; 
+} 
+ 
+a.mainlevel { 
+ margin : 0px; 
+ padding : 0px; 
+ font-size : 12px; 
+ width : 150px; 
+ text-indent : 10px; 
+} 
+ 
+a.mainlevel: link { 
+ text-indent : 10px; 
+} 
+ 
+a.mainlevel:link, a.mainlevel:visited { 
+ display : block; 
+ -moz-opacity : 0.85; 
+ padding : 2px 0px 2px 0px; 
+ margin : 1px; 
+ background : #f0f0f0; 
+ border : 1px solid #e0e0e0; 
+ text-indent : 10px; 
+} 
+ 
+a.mainlevel:hover { 
+ text-decoration : none; 
+ text-indent : 10px; 
+ background : #e0e0e0; 
+ border : 1px solid #d0d0d0; 
+} 
+ 
+#active_menu { 
+ font-weight : bold; 
+ color : #003366; 
+} 
+a#active_menu:hover { 
+} 
+ 
+.sublevel { 
+ font-size : 12px; 
+} 
+ 
+ul#mainlevel-nav { 
+ padding : 0; 
+ margin : 0; 
+ list-style : none; 
+} 
+ 
+ul#mainlevel-nav li { 
+ display : block; 
+ padding-left : 0px; 
+ padding-right : 0px; 
+ margin : 0; 
+ float : right; 
+ font-size : 11px; 
+ font-weight : bold; 
+ line-height : 20px; 
+ white-space : nowrap; 
+/* border-left : 1px solid #FFFFFF;*/ 
+ 
+} 
+ 
+ul#mainlevel-nav li a { 
+ display : block; 
+ padding-left : 10px; 
+ padding-right : 10px; 
+ text-decoration : none; 
+ color : #fff; 
+ 
+} 
+ 
+ul#mainlevel-nav li a:hover { 
+ color : #FFFFFF; 
+ background : #336699; 
+} 
+ 
+a:link, a:visited { 
+ color : #336699; 
+ text-decoration : none; 
+} 
+ 
+a:hover { 
+ color : #003366; 
+ text-decoration : underline; 
+} 
+ 
+a.category:link, a.category:visited { 
+ font-weight : bold; 
+} 
+ 
+.readon { 
+ font-weight : bold; 
+} 
+ 
+.pagenavbar { 
+ background-color : #F0F0F0; 
+ border : 1px solid #e0e0e0; 
+ padding : 3px; 
+ text-align : center; 
+} 
+ 
+.contenttoc { 
+ width : 180px; 
+ background-color : #F0F0F0; 
+ border : 1px solid #e0e0e0; 
+ padding : 2px; 
+} 
+ 
+.contenttoc th { 
+ padding : 3px 5px; 
+ font-size : 14px; 
+ font-weight : bold; 
+ text-align : left; 
+ letter-spacing : 1px; 
+ color : #003366; 
+} 
+ 
+.contenttoc td { 
+ padding : 2px 5px; 
+} 
+ 
+.small { 
+ font-size : 10px; 
+ color : #336699; 
+} 
+ 
+.smalldark { 
+ font-size : 10px; 
+ color : #000000; 
+} 
+ 
+.createdate, .modifydate { 
+ font-size : 10px; 
+ color : #999999; 
+} 
+ 
+.content_rating { 
+ font-size : 10px; 
+ color : #FEC56A; 
+} 
+ 
+.content_vote { 
+ font-size : 10px; 
+ height : 22px; 
+ padding-top : 2px; 
+ padding-bottom : 2px; 
+ padding-left : 10px; 
+ padding-right : 10px; 
+ background-color : #F0F0F0; 
+ border : 1px solid #e0e0e0; 
+} 
+ 
+.pathway { 
+ font-size : 12px; 
+ color : #000000; 
+ letter-spacing : 1px; 
+ margin-left : 4px; 
+} 
+ 
+a.pathway:link, a.pathway:visited { 
+ color : #ff9933; 
+ font-size : 12px; 
+} 
+ 
+a.pathway:hover { 
+ font-size : 12px; 
+} 
+ 
+.contentpane { 
+ padding : 0px; 
+} 
+ 
+.contentpaneopen { 
+ padding : 0px; 
+ text-align : justify; 
+} 
+ 
+.contentheading, .componentheading { 
+ padding : 0px; 
+ font-size : 14px; 
+ font-weight : bold; 
+ text-align : left; 
+ letter-spacing : 1px; 
+ color : #003366; 
+} 
+ 
+.contentpagetitle { 
+ font-weight : bold; 
+ color : #000; 
+} 
+ 
+a.contentpagetitle:link, a.contentpagetitle:visited, a.contentpagetitle:active { 
+ text-decoration : none; 
+} 
+ 
+a.readon:link, a.readon:visited { 
+ color : #999999; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; 
+ font-size : 10px; 
+ font-weight : normal; 
+ white-space : nowrap; 
+ float : left; 
+ line-height : 10px; 
+ text-decoration : none; 
+} 
+ 
+a.readon:hover { 
+ color : #336699; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; 
+ font-size : 10px; 
+ font-weight : normal; 
+ white-space : nowrap; 
+ float : left; 
+ line-height : 10px; 
+ text-decoration : none; 
+} 
+ 
+.back_button a:link, .back_button a:visited { 
+ color : #999999; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; 
+ font-size : 10px; 
+ font-weight : normal; 
+ white-space : nowrap; 
+ float : left; 
+ line-height : 10px; 
+ text-decoration : none; 
+} 
+ 
+.back_button a:hover { 
+ color : #336699; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; 
+ font-size : 10px; 
+ font-weight : normal; 
+ background : #F0F0F0; 
+ border : 1px solid #E0E0E0; 
+ padding : 2px 4px 2px 4px; 
+ white-space : nowrap; 
+ float : left; 
+ line-height : 10px; 
+ text-decoration : none; 
+} 
+ 
+.pagenav a:link, .pagenav a:visited, .buttonheading a:link, .buttonheading a:visited { 
+ color : #999999; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; 
+ font-size : 10px; 
+ font-weight : normal; 
+ background : #F0F0F0; 
+ border : 1px solid #E0E0E0; 
+ padding : 2px 4px 2px 4px; 
+ white-space : nowrap; 
+ float : left; 
+ line-height : 10px; 
+ text-decoration : none; 
+} 
+ 
+.pagenav a:hover, .buttonheading a:hover { 
+ color : #336699; 
+ font-family : "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; 
+ font-size : 10px; 
+ font-weight : normal; 
+ background : #F0F0F0; 
+ border : 1px solid #E0E0E0; 
+ padding : 2px 4px 2px 4px; 
+ white-space : nowrap; 
+ float : left; 
+ line-height : 10px; 
+ text-decoration : none; 
+} 
